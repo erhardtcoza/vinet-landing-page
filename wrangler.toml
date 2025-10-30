@@ -11,6 +11,13 @@ database_id = "92bfa264-430c-4aa6-9b4a-f2a2601078f2"
 binding = "COVERAGE_KV"
 id = "03f9082eb4654e5c8cc238d0b80b025f"
 
+[observability]
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+invocation_logs = true
+persist = false
+
 [vars]
 # Toggle Splynx integration (0 = off, 1 = on)
 SPLYNX_ENABLED = "0"
