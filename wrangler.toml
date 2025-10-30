@@ -1,4 +1,5 @@
-name = "vinet-fibre-landing"
+# wrangler.toml
+name = 'vinet-landing-page'
 main = "src/index.js"
 compatibility_date = "2025-10-30"
 
