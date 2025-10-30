@@ -1,0 +1,19 @@
+name = "vinet-fibre-landing"
+main = "src/index.js"
+compatibility_date = "2025-10-30"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "vinet-fibre-leads"
+database_id = "<YOUR_D1_DB_ID>"
+
+[[kv_namespaces]]
+binding = "COVERAGE_KV"
+id = "03f9082eb4654e5c8cc238d0b80b025f"
+
+[vars]
+# Toggle Splynx integration (0 = off, 1 = on)
+SPLYNX_ENABLED = "0"
+# If enabled, set:
+# SPLYNX_BASE_URL = "https://splynx.vinet.co.za"
+# SPLYNX_AUTH_B64 = "<base64 of 'api_key:api_secret' or your Basic token>"
